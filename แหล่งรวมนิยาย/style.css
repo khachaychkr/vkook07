@@ -1,0 +1,130 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: "Noto Sans Thai", sans-serif; }
+html { scroll-behavior: smooth; }
+
+section { padding: 250px 35px; min-height: 100vh; }
+
+/* เมนูด้านบน */
+.topnav {
+  position: fixed; top: 0; left: 0; right: 0;
+  background: #fff; display: flex; justify-content: center; gap: 30px;
+  padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); z-index: 1000;
+}
+.topnav a { text-decoration: none; font-size: 1.2rem; color: #333; }
+.topnav a:hover { color: #e67e22; }
+
+/* แถบสี */
+.color-bars { display: flex; width: 100%; height: 200px; margin-top: 60px; }
+.bar { flex: 1; border: 2px solid black; }
+.bar1{background:#e6d6bb;} .bar2{background:#d8a691;} .bar3{background:#e58b55;}
+.bar4{background:#d6bb74;} .bar5{background:#e8d4c7;} .bar6{background:#9d9361;}
+.center-box { text-align: center; margin-top: -120px; background: white;
+  padding: 20px 40px; display: inline-block; border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+
+/* แบนเนอร์ */
+.banner { position: relative; width: 100%; height: 250px; overflow: hidden; }
+.banner img { width: 100%; height: 100%; object-fit: cover; }
+.banner-text { position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);
+  font-size: 3rem; color: #f5a623; }
+
+/* Card */
+.novel-list { display: flex; flex-wrap: wrap; gap: 20px; padding: 20px; justify-content: center; }
+.novel-card { background: #fff; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 10px; width: 160px; text-align: center; }
+.novel-card img { width: 100%; border-radius: 8px; }
+.views { color: #e74c3c; font-size: 0.9rem; margin-top: 5px; }
+
+/* Footer */
+footer { text-align: center; padding: 20px; background: #222; color: white; margin-top: 50px; }
+body {
+  font-family: sans-serif;
+  background: #fdfcf8;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.page {
+  padding: 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.post, .msg {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.avatar-large {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.post-content {
+  text-align: left;
+}
+
+.post-content h2 {
+  margin: 0;
+}
+
+.tag {
+  color: blue;
+}
+
+.actions span {
+  margin-right: 15px;
+}
+
+.banner {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.profile-info {
+  text-align: center;
+}
+
+.stats {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-top: 2px solid #ccc;
+  font-size: 22px;
+}
